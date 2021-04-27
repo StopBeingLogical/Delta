@@ -1,0 +1,59 @@
+# Object Models #
+
+Character (race, attributes, abilities, skills, decoration, inventory, equipment)
+      .race
+      .attributes
+          .body
+          .quickness
+          .strength
+          .intelligence
+          .willpower
+          .charisma
+          .essence
+          .magic
+          .reaction
+      .abilities
+      .skills
+      .decoration
+      .inventory
+      .equipment
+
+Race (name, priority, attribute_mod, )
+      .human
+            Priority
+                  $priorityE
+            Racial Mods
+      .elf
+            Priority
+                  C
+      .dwarf
+            Priority
+                  D
+      .ork
+            Priority
+                  D
+      .troll
+            Priority
+                  C
+
+Attributes
+      Body
+            $char_Bod
+      Quickness
+            $char_Qui
+      Strength
+            $char_Str
+      Intellignce
+            $char_Int
+      Willpower
+            $char_Wil
+      Charisma
+            $char_Cha
+      Essence
+            $char_Ess
+      Magic
+            $char_Mag
+      Reaction
+            $char_Rea
+
+Equipment
